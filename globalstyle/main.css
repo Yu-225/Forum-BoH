@@ -1,0 +1,27 @@
+/* стиль у якому описується форма лівого меню і контент */
+
+
+.main {
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.menu-box {
+    width: 30%;
+}
+.content-box {
+    width: 70%;
+}
+
+.content {
+    background-color: var(--bg-color-card);
+    width: 80%;
+    float: left;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+

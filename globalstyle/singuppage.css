@@ -1,0 +1,110 @@
+/* singup */
+
+.singup-card {
+    width: 60%;
+    height: 700px;
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.singup-box {
+    float: left;
+    width: 50%;
+}
+
+.singup-box form {
+    margin: 42px;
+}
+
+.links {
+    display: flex;
+    font-size: 12px; 
+}
+.links a, p {
+    margin: 3px; 
+}
+
+.singup-box form p:hover, .singup-box form a:hover {
+    cursor: pointer;
+    color: var(--text-hover);
+}
+
+.singup-box form input {
+    border: none;
+    border-radius: 7px;
+    width: 70%;
+    height: 30px;
+    background-color: var(--bg-color-hover);
+    color: var(--text-color);
+}
+.singup-box form input:focus {
+    border: none;
+    outline: 2px solid var(--boh-color);
+}
+
+
+
+
+
+
+/* .robotCheck input:hover {
+    border: 1px solid rgb(255, 0, 0);
+} */
+
+.robotCheck input:checked {
+    border: none;
+    outline: none;
+    background-color: var(--boh-color);
+}
+
+
+
+
+
+
+
+
+.singup-btn {
+    margin-left: 42px;
+    margin-top: -42px;
+    font-size: 11px;
+}
+
+.singup-btn button {
+    background-color: var(--boh-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 7px;
+    height: 35px;
+    width: 150px;
+}
+.singup-btn button:hover {
+    background-color: var(--boh-hover);
+    color: var(--text-hover);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.singup-content {
+    float: right;
+    width: 50%;
+}
+.singup-content div {
+    margin: 30px;
+
+}

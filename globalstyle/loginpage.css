@@ -1,0 +1,109 @@
+/* login */
+
+.login-card {
+    width: 60%;
+    height: 700px;
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-box {
+    float: left;
+    width: 50%;
+}
+
+.login-box form {
+    margin: 42px;
+}
+
+.links {
+    display: flex;
+    font-size: 12px; 
+}
+.links a, p {
+    margin: 3px; 
+}
+
+.login-box form p:hover, .login-box form a:hover {
+    cursor: pointer;
+    color: var(--text-hover);
+}
+
+.login-box form input {
+    border: none;
+    border-radius: 7px;
+    width: 70%;
+    height: 30px;
+    background-color: var(--bg-color-hover);
+    color: var(--text-color);
+}
+.login-box form input:focus {
+    border: none;
+    outline: 2px solid var(--boh-color);
+}
+
+
+
+
+
+
+/* .robotCheck input:hover {
+    border: 1px solid rgb(255, 0, 0);
+} */
+
+.robotCheck input:checked {
+    border: none;
+    outline: none;
+    background-color: var(--boh-color);
+}
+
+
+
+
+
+
+
+
+.login-btn {
+    margin-left: 42px;
+    margin-top: -42px;
+}
+
+.login-btn button {
+    background-color: var(--boh-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 7px;
+    height: 35px;
+    width: 150px;
+}
+.login-btn button:hover {
+    background-color: var(--boh-hover);
+    color: var(--text-hover);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.login-content {
+    float: right;
+    width: 50%;
+}
+.login-content div {
+    margin: 30px;
+
+}

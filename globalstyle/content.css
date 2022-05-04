@@ -1,0 +1,85 @@
+/* контент */
+
+.quick-news {
+    margin: 5px 5px 5px 5px;
+    font-size: small;
+}
+
+.quick-news div {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    transition: 0.4s;
+    text-align: left;
+}
+
+
+.quick-news div:hover {
+    background-color: var(--bg-color-hover);
+    cursor: pointer;
+
+}
+
+.quick-news div a {
+    color: var(--boh-color);
+
+}
+
+
+
+
+.articles {
+    width: 100%;
+    height: auto;
+}
+
+.articles-list {
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+
+.articles-list-item {
+    transition: 0.4s;
+    border-radius: 8px;
+    margin-top: 5px;
+    width: 100%;
+    height: 66px;
+}
+.articles-list-item:hover {
+    background-color: var(--bg-color-hover);
+    border-radius: 8px;
+    
+}
+
+.articles-list-item .title {
+    width: 70%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    font-size: larger;
+}
+.articles-list-item .description {
+    width: 70%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    font-size: small;
+}
+.articles-list-item .autor {
+    width: 25%;
+    height: 100%;
+    float: right;
+    text-align: right;
+    box-shadow: -1px 0px 0px 0px var(--boh-color);
+}
+.articles-list-item .autor span {
+    vertical-align: top;
+}
+.articles-list-item .autor a img {
+    border-radius: 100%;
+}
+
+

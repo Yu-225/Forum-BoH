@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="/images/logo/logotitle.webp" type="image/x-icon">
+        <title>Barrel of Honey</title>
+		<meta charset="utf-8">
+    
+    <!-- Імпорт стилів -->
+		<link rel="stylesheet" href="/globalstyle/roots.css">
+		<link rel="stylesheet" href="/globalstyle/header.css">
+		<link rel="stylesheet" href="/globalstyle/footer.css">
+		<link rel="stylesheet" href="/globalstyle/main.css">
+		<link rel="stylesheet" href="/globalstyle/scrollup.css">
+		<link rel="stylesheet" href="/globalstyle/scrollbar.css">
+		<link rel="stylesheet" href="/globalstyle/content.css">
+		<link rel="stylesheet" href="/globalstyle/leftmenu.css">
+		<link rel="stylesheet" href="/globalstyle/reklama.css">
+    <!-- Імпорт стилів -->
+    
+
+    <!-- Імпорт шрифтів -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <!-- Імпорт шрифтів -->
+
+
+    <!-- іконочки -->
+        <script src="https://kit.fontawesome.com/f452764e5f.js" crossorigin="anonymous"></script>
+    <!-- іконочки -->
+
+
+    <!-- ліва кнопочка, яка піднімає до гори -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/globalscripts/scroll_up.js"></script>
+    <!-- ліва кнопочка, яка піднімає до гори -->
+
+    <!-- штука яка має відкривати список в бічному меню -->
+        <script src="/globalscripts/leftmenushow.js"></script>
+    <!-- штука яка має відкривати список в бічному меню -->
+    
+    </head>
+
+    <body>
+
+        <div class="scroll-top">
+            <i class="fas fa-angle-up"></i>
+        </div>
+
+        <iframe
+            id="header"
+            style="width: 100%; height: 42px; border: none;" 
+            src="/construct/header/header.html" 
+            title="header">
+        </iframe>
+
+
+        <div class="main">
+            <div class="menu-box">
+                <div class="menu">
+
+                    <div class="menu-login">
+                        <a href="#"> Log in </a>
+                    </div>
+
+                    <div class="menu-create">
+                        <a href="#"> Create new discus </a>
+                    </div>
+
+                    <hr style="margin-top: 15px;">
+
+                    <h4>Popular topics</h4>
+
+
+                    <div class="topics">
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openInternet(this)">
+                                <div class="left"><i class="fa-brands fa-internet-explorer"></i> Internet </div>
+                                <div class="right" id="arrow1"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item1">
+                                <a>Browsers</a><br>
+                                <a>Communication</a><br>
+                                <a>Torrents</a><br>
+                                <a>File exchange</a><br>
+                                <a>Cloudy stroage</a><br>
+                                <a>Remote access</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openSecurity()">
+                                <div class="left"><i class="fa-solid fa-shield-halved"></i> Security</div>
+                                <div class="right" id="arrow2"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item2">
+                                <a>Complex protection</a><br>
+                                <a>Aitiviruses</a><br>
+                                <a>Fireworks</a><br>
+                                <a>Anti-Spies</a><br>
+                                <a>Passwords</a><br>
+                                <a>Anonymity</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openOffice()">
+                                <div class="left"><i class="fa-solid fa-briefcase"></i> Office</div>
+                                <div class="right" id="arrow3"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item3">
+                                <a>Office packages</a><br>
+                                <a>Text</a><br>
+                                <a>Documents</a><br>
+                                <a>Finances</a><br>
+                                <a>Productivity</a><br>
+                                <a>Team communication</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openMedia()">
+                                <div class="left"><i class="fa-solid fa-photo-film"></i> Media</div>
+                                <div class="right" id="arrow4"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item4">
+                                <a>Players</a><br>
+                                <a>Conversion</a><br>
+                                <a>TV/Radio</a><br>
+                                <a>Video editors</a><br>
+                                <a>Audio editors</a><br>
+                                <a>Creation of music</a><br>
+                                <a>WebCam</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openGlaphics()">
+                                <div class="left"><i class="fa-solid fa-chart-pie"></i> Graphics</div>
+                                <div class="right" id="arrow5"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item5">
+                                <a>Animation</a><br>
+                                <a>3D Animation</a><br>
+                                <a>Glaphics Editors</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openGammers()">
+                                <div class="left"><i class="fas fa-gamepad"></i> For gammers</div>
+                                <div class="right" id="arrow6"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item6">
+                                <a>Games</a><br>
+                                <a>Captive video</a><br>
+                                <a>Emulators</a><br>
+                                <a>Cheats</a><br>
+                                <a>Creation of games</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openSystem()">
+                                <div class="left"><i class="fas fa-laptop"></i> System</div>
+                                <div class="right" id="arrow7"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item7">
+                                <a>Diagnosis</a><br>
+                                <a>Settings</a><br>
+                                <a>Service</a><br>
+                                <a>Drivers</a><br>
+                                <a>Emulation</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="topics-item">
+                            <div class="topics-item-btn" onclick="openDEV()">
+                                <div class="left"><i class="fas fa-code"></i> For dev's</div>
+                                <div class="right" id="arrow8"><i class="fa-solid fa-angle-down"></i></div>
+                            </div>
+                            <div class="topics-item-content" id="item8">
+                                <a>Text editors</a><br>
+                                <a>Programing</a><br>
+                                <a>Emulation</a><br>
+                                <a>Server</a><br>
+                                <a>Creation of games</a><br>
+                                <a>Other</a><br>
+                                <hr>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="reklamama">
+                    
+                    <p>Our partners</p>
+
+                    <div class="reklamama-list">
+                        
+                        
+                        <a href="#" target="_blank">
+                            <div class="reklamama-list-item">
+
+                                File Share
+
+                            </div>
+                        </a>
+                        
+
+                        <a href="#" target="_blank">
+                            <div class="reklamama-list-item">
+
+                                Game News
+
+                            </div>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <div class="reklamama-list-item">
+
+                                Game Rewievs
+
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+            <div class="content-box">
+                <div class="content">
+                    
+                    <div class="quick-news">
+                        <h3>Quick news</h3>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">Windows 11’s biggest update yet could arrive sooner than you think</a></div>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">Microsoft Teams update will eliminate an unnecessary headache</a></div>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">LinkedIn just received a small but very useful upgrade</a></div>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">Windows 11 update that broke Safe Mode is now fixed</a></div>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">What I'd like to see in Wear OS as we head towards Google IO</a></div>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">Windows 11 gets a boost for parental controls as work begins on finishing 22H2 update</a></div>
+                        <div><i class="fa-solid fa-newspaper"></i><a style="margin-left: 5px" href="/news/index.html">New Avid bundles make pro-level audio editing accessible to everyone</a></div>
+                    </div>
+                    <hr>
+
+
+                    <div class="articles">
+                        <div class="articles-list">
+
+                            <div class="articles-list-item">
+                                <div class="title">
+                                    <a href="/discus/1/index.html">Questions about the forum</a>
+                                </div>
+                                <div class="autor">
+                                    <span>Admin</span>
+                                    <a href="#"><img width="66px" height="100%" src="/user/id/1/ava.jpg"></a>
+                                </div>
+                                <div class="description">
+                                    <span>Admin</span> | <span>02.05.2022 10:06</span>
+                                </div>
+                            </div>
+
+                            <div class="articles-list-item">
+                                <div class="title">
+                                    <a href="#">Now to hack this forum</a>
+                                </div>
+                                <div class="autor">
+                                    <span>Hacker</span>
+                                    <a href="#"><img width="66px" height="100%" src="/user/id/2/ava.gif"></a>
+                                </div>
+                                <div class="description">
+                                    <span>Hacker</span> | <span>29.02.2022 25:61</span>
+                                </div>
+                            </div>
+
+                            <div class="articles-list-item">
+                                <div class="title">
+                                    <a href="#">Woff woff woff</a>
+                                </div>
+                                <div class="autor">
+                                    <span>WowK</span>
+                                    <a href="#"><img width="66px" height="100%" src="/user/id/3/ava.jpg"></a>
+                                </div>
+                                <div class="description">
+                                    <span>WowK</span> | <span>02.05.2022 10:06</span>
+                                </div>
+                            </div>
+
+                            <div class="articles-list-item">
+                                <div class="title">
+                                    <a href="#">How to become Hokage. Easy tutorial</a>
+                                </div>
+                                <div class="autor">
+                                    <span style="font-size: small;">Hashirama</span>
+                                    <a href="#"><img width="66px" height="100%" src="/user/id/4/ava.jpg"></a>
+                                </div>
+                                <div class="description">
+                                    <span>Hashirama</span> | <span>02.05.2022 10:06</span>
+                                </div>
+                            </div>
+
+                            <div class="articles-list-item">
+                                <div class="title">
+                                    <a href="#">why so blue</a>
+                                </div>
+                                <div class="autor">
+                                    <span style="font-size: small;">dedinside</span>
+                                    <a href="#"><img width="66px" height="100%" src="/user/id/5/ava.jpg"></a>
+                                </div>
+                                <div class="description">
+                                    <span>dedinside</span> | <span>02.05.2022 10:06</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+         
+        <div class="footer">
+            <p>© 2022 Yu Lapin</p>
+        </div>
+        
+        <script>
+            function thisPage() {
+                alert("This page is not ready to view yet")
+            }
+        </script>
+
+    </body>
+</html>

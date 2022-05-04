@@ -1,0 +1,38 @@
+:root {
+    --bg-color: rgb(50, 50, 50);
+    --bg-color-card: rgb(38, 38, 38);
+    --bg-color-hover: rgb(100, 100, 100);
+
+    
+    --text-color: rgb(242, 242, 242);
+    --text-hover: rgb(180, 180, 180);
+    
+
+    --boh-color: rgb(255, 165, 0);
+    --boh-hover: rgb(193, 103, 0);
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    font-family: 'Kanit', sans-serif;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: orange;
+    border: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--text-hover);
+}
+
+
+
+

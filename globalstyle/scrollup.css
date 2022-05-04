@@ -1,0 +1,16 @@
+/* ліва кнопочка, яка піднімає до гори */
+
+.scroll-top {
+    background-color: var(--bg-color-card);
+    display: flex;
+    height: 100%;
+    width: 5%;
+    position: fixed;
+}
+.scroll-top i {
+    margin: auto;
+    color: var(--text-color);
+}
+.scroll-top:hover {
+    cursor: pointer;
+}

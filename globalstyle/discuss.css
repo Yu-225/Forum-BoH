@@ -1,0 +1,117 @@
+/* discus */
+
+
+.back-btn button {
+    background-color: var(--boh-color);
+    color: var(--text-color);
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+.back-btn button:hover {
+    background-color: var(--boh-hover);
+    color: var(--text-hover);
+    cursor: pointer;
+}
+
+
+
+.login-sign-btn {
+    padding: 25px;
+    text-align: center;
+}
+
+.login-sign-btn a {
+    background-color: var(--boh-color);
+    padding: 10px;
+    border-radius: 8px;
+}
+.login-sign-btn a:hover {
+    background-color: var(--boh-hover);
+}
+
+
+
+
+
+.discuss {
+    width: 70%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discuss-header {
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+
+.discuss-content {
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+.discuss-autor-card {
+    height: auto;
+}
+
+.discuss-autor {
+
+    box-shadow: 1px 0px 0px 0px var(--boh-color);
+
+    width: 20%;
+    float: left;
+}
+.discuss-autor img {
+    width: 90%;
+
+}
+.discuss-text {
+
+
+    width: 80%;
+    height: 100%;
+    float: right;
+
+}
+.discuss-text div {
+    margin-left: 10px;
+}
+
+
+
+
+
+.comments-autor {
+
+    width: 20%;
+    float: left;
+}
+.comments-autor img {
+
+    width: 75%;
+}
+.comments-text {
+
+
+    width: 80%;
+    float: right;
+
+}
+.comments-text div {
+    margin-left: 10px;
+}
+

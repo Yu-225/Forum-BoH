@@ -1,0 +1,82 @@
+/* lefft menu */
+
+
+.menu {
+    background-color: var(--bg-color-card);
+    width: 55%;
+    height: auto;
+    float: right;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+
+.menu-login, .menu-create {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.menu-login a, .menu-create a {
+    background-color: var(--boh-color);
+    border-radius: 9px;
+    padding: 5px 20px;
+
+}
+.menu-login a:hover, .menu-create a:hover {
+    background-color: var(--boh-hover);
+}
+
+
+
+
+.topics {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.topics-item {
+    margin: 5px 10px 0px 10px;
+    text-align: start;
+    width: auto;
+    height: auto;
+}
+.topics-item-btn {
+    border-radius: 10px;
+    width: auto;
+    height: 35px;
+    user-select: none;
+}
+.topics-item-btn:hover {
+    background-color: var(--bg-color-hover);
+    cursor: pointer;
+}
+
+.topics-item-btn div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.topics-item-content {
+    display: none;
+    margin: 0px 10px;
+    transition: height 0.5s linear;
+}
+
+
+.topics-item-content a {
+    color: var(--boh-color);
+}
+.topics-item-content a:hover {
+    color: var(--boh-hover);
+    cursor: pointer;
+}
+
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

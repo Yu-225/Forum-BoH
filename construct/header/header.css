@@ -1,0 +1,95 @@
+/* Шапка */
+
+
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
+
+.header {
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+}
+
+.header-content {
+
+    margin: 0 10% 0 10%;
+    height: 100%;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.header .logo img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.header-content div {
+    align-items: center;
+}
+.header-content div a {
+    padding: 3px 15px 3px 15px;
+}
+
+
+.login a:first-child {
+    background-color: var(--boh-color);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.login a:first-child:hover {
+    background-color: var(--boh-hover);
+}
+
+
+
+
+.search input {
+    border: none;
+    border-radius: 7px 0 0 7px;
+    width: 123px;
+    height: 25px;
+    background-color: var(--bg-color-hover);
+    color: var(--text-color);
+}
+
+.search button {
+    background-color: var(--boh-color);
+    border: none;
+    border-radius: 0 7px 7px 0;
+    height: 27px;
+    width: 30px;
+
+}
+
+.search input:focus {
+    outline: none;
+}
+.search button:hover {
+    cursor: pointer;
+    background-color: var(--boh-hover);
+    color: var(--text-hover)
+}
+.search button i {color: var(--text-color);}
+
+
+@media screen and (max-width: 1111px) {
+    .header-content {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 909px) {
+    .header-content {
+        font-size: 12px;
+        margin: 0px 10px 0px 5%;
+    }
+}

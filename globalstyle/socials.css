@@ -1,0 +1,22 @@
+/* socials */
+
+
+.socials-box {
+    width: 70%;
+}
+
+.socials {
+    background-color: var(--bg-color-card);
+    width: 80%;
+    float: left;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+
+
+.socials span {
+    display: flex;
+    justify-content: center;
+
+}

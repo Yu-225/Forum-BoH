@@ -1,0 +1,58 @@
+/* news */
+
+.newspaper h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+.newspaper {
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+    border-radius: 10px;
+
+    width: 60%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-list {
+
+    margin: 10px;
+    padding: 15px;
+}
+
+.news {
+    display: block;
+    transition: 0.4s;
+
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 10px;
+
+    width: auto;
+    height: 150px;
+}
+.news:hover {
+    background-color: var(--bg-color-hover);
+    color: white;
+    cursor: pointer;
+}
+
+.news-image {
+    float: left;
+    height: 150px;
+    width: 50%;
+}
+
+.news-image img {
+    height: 100%;
+}
+
+.news-content {
+    font-size: medium;
+    float: right;
+    margin-top: -20px;
+    width: 50%;
+}
